@@ -1,3 +1,10 @@
-# static-html-template
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+  </head>
 
-Use this template to create static HTML websites and deploy them on Render.
+  <body>
+  
+  </body>
+</html>
