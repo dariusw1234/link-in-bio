@@ -1,18 +1,22 @@
 <!DOCTYPE html>
-<html>
+<html style="min-height: 100%;">
   <head>
     <title>link-in-bio</title>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <style>
       * {
         border: red 1px dashed
-        }
+      }
 
       body {
+        color: white;
+        min-height: 100%;
         padding-top: 40px;
         padding-bottom: 40px;
         background: linear-gradient(150deg, #3b425b, #4d4575, #6d4286, #95368a, #be2084, #df0066, #f70041, #ff0000); 
-        }
+      }
       
       .profile {
         width: 128px;
@@ -28,6 +32,45 @@
         object-fit: cover;
       }
       
+        a {
+        color: orange;
+      }
+
+      .items {
+      background: rgba(244, 210, 171, 0.336);
+      margin: 20px;
+      display: flex;
+      align-items: center;
+      }
+      
+      .main-container{
+        max-width: 640px;
+        margin: auto;
+      }
+      .image-row {
+        margin-bottom: 20px;
+        text-align: center;
+      }
+
+      .name-row {
+        margin-bottom: 30px;
+        text-align: center;
+      }
+
+      .social-icons-row {
+        margin-bottom: 30px;
+        display: flex;
+        justify-content: space-around;
+      }
+
+      .links-row {
+        
+      }
+
+      .link-text {
+        text-align: center;
+        flex-grow: 1;
+      }
     </style>
   </head>
 
@@ -47,17 +90,17 @@
     </div>
 
     <div class="links-row">
-      <div>
+      <div class="items">
         <img src="images/ascii.jpg" alt="html code on a screen" class="thumbnail">
-        <a href="https://www.ascii-art-generator.org/" target="_blank">ASCII Generator</a>
+        <a class="link-text" href="https://www.ascii-art-generator.org/" target="_blank">ASCII Generator</a>
       </div>
-      <div>
+      <div class="items">
         <img src="images/tag-reference.jpg" alt="a pair of angle brackets for an html tag" class="thumbnail">
-        <a href="https://www.w3schools.com/tags/" target="_blank">HTML Tag Reference</a>
+        <a class="link-text" href="https://www.w3schools.com/tags/" target="_blank">HTML Tag Reference</a>
       </div>
-      <div>
+      <div class="items">
         <img src="images/html-intro.jpg" alt="a reflective sphere hovering over a colorfully lit keyboard"  class="thumbnail">
-        <a href="https://www.geeksforgeeks.org/html-introduction/" target="_blank">HTML Intro</a>
+        <a class="link-text" href="https://www.geeksforgeeks.org/html-introduction/" target="_blank">HTML Intro</a>
       </div>  
     </div>
 
