@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html style="min-height: 100%;">
   <head>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/js/all.min.js"></script>
     <title>link-in-bio</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <style>
-      * {
+      /* * { 
         border: red 1px dashed
-      }
+      } */
 
       body {
         color: white;
@@ -16,6 +17,7 @@
         padding-top: 40px;
         padding-bottom: 40px;
         background: linear-gradient(150deg, #3b425b, #4d4575, #6d4286, #95368a, #be2084, #df0066, #f70041, #ff0000); 
+        font-family: "Lucida Console";
       }
       
       .profile {
@@ -32,8 +34,9 @@
         object-fit: cover;
       }
       
-        a {
+      a {
         color: orange;
+        text-decoration: none;
       }
 
       .items {
@@ -41,6 +44,10 @@
       margin: 20px;
       display: flex;
       align-items: center;
+      border-radius: 1000px;
+      padding: 5px;
+      padding-right: 53px;
+      box-shadow: 4px 4px 10px 0px rgba(0,0,0,0.5);
       }
       
       .main-container{
@@ -55,16 +62,15 @@
       .name-row {
         margin-bottom: 30px;
         text-align: center;
+        font-family: "Georgia";
+        font-size: 24px;
+        font-weight: 900;
       }
 
       .social-icons-row {
         margin-bottom: 30px;
         display: flex;
         justify-content: space-around;
-      }
-
-      .links-row {
-        
       }
 
       .link-text {
@@ -85,23 +91,46 @@
     </div>
 
     <div class="social-icons-row">
-      <a href="https://www.linkedin.com/in/darius-woods-3506301b8/" target="_blank">LinkedIn</a>
-      <a href="https://github.com/dariusw1234" target="_blank">Github</a>
+      <a href="https://www.linkedin.com/in/darius-woods-3506301b8/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+      <a href="https://github.com/dariusw1234" target="_blank"><i class="fa-brands fa-github"></i></a>
     </div>
 
     <div class="links-row">
       <div class="items">
-        <img src="images/ascii.jpg" alt="html code on a screen" class="thumbnail">
-        <a class="link-text" href="https://www.ascii-art-generator.org/" target="_blank">ASCII Generator</a>
+        <img src="images/html-intro.jpg" alt="a reflective sphere hovering over a colorfully lit keyboard"  class="thumbnail">
+        <a class="link-text" href="https://www.geeksforgeeks.org/html-introduction/" target="_blank">HTML Intro</a>
       </div>
+
       <div class="items">
         <img src="images/tag-reference.jpg" alt="a pair of angle brackets for an html tag" class="thumbnail">
         <a class="link-text" href="https://www.w3schools.com/tags/" target="_blank">HTML Tag Reference</a>
       </div>
+
       <div class="items">
-        <img src="images/html-intro.jpg" alt="a reflective sphere hovering over a colorfully lit keyboard"  class="thumbnail">
-        <a class="link-text" href="https://www.geeksforgeeks.org/html-introduction/" target="_blank">HTML Intro</a>
-      </div>  
+        <img src="images/ascii.jpg" alt="html code on a screen" class="thumbnail">
+        <a class="link-text" href="https://www.ascii-art-generator.org/" target="_blank">ASCII Generator</a>
+      </div>
+
+      <div class="items">
+        <img src="images/color-picker.jpg" alt="multi-colored rectangles receding in the distance"  class="thumbnail">
+        <a class="link-text" href="https://rgbacolorpicker.com/" target="_blank">RGBA Color Picker</a> 
+      </div>
+
+      <div class="items">
+        <img src="images/font.jpg" alt="a large and small letter"  class="thumbnail">
+        <a class="link-text" href="https://fonts.google.com/" target="_blank">Fonts</a> 
+      </div>
+
+      <div class="items">
+        <img src="images/icons.jpg" alt="a group of social media icons"  class="thumbnail">
+        <a class="link-text" href="https://fontawesome.com/search?q=github&o=r" target="_blank">Icons</a> 
+      </div>
+        
+      <div class="items">
+        <img src="images/box-shadow.jpg" alt="a shadow of a flower"  class="thumbnail">
+        <a class="link-text" href="https://www.cssmatic.com/box-shadow" target="_blank">CSS Box Shadow</a>
+      </div>
+
     </div>
 
   </div>
